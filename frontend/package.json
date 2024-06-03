@@ -18,11 +18,15 @@
     "@radix-ui/react-toast": "^1.1.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
     "lucide-react": "^0.379.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^6.1.11",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vite-plugin-babel-macros": "^1.0.6",
+    "vite-plugin-env-compatible": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
@@ -30,6 +34,8 @@
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.19",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -40,6 +46,12 @@
     "react-cosmos": "^6.1.1",
     "react-cosmos-plugin-vite": "^6.1.1",
     "tailwindcss": "^3.4.3",
+    "twin.macro": "^3.4.1",
     "vite": "^5.2.0"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
   }
 }

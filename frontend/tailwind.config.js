@@ -6,6 +6,8 @@ module.exports = {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
+    // "./index.html",
+    // "./src/**/*.{js,jsx,ts,tsx}"
   ],
   prefix: "",
   theme: {
@@ -74,4 +76,5 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  // presets: [require('twin.macro/preset')],
 }
